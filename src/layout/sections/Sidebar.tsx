@@ -15,9 +15,6 @@ export default function Sidebar() {
     setActiveMenu(url.pathname);
   }, [url.pathname]);
 
-  console.log("url pathname ==>> ", activeMenu);
-  
-
   return (
     <>
       <button

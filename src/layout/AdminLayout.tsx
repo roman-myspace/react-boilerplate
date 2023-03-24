@@ -12,10 +12,10 @@ export default function AdminLayout() {
     return (
       <>
             <div className="grid grid-cols-[256px_minmax(256px,_1fr)] min-h-screen">
-              <div className="border border-red-600 h-full">
+              <div className="h-full">
                 <Sidebar />
               </div>
-              <div className="border border-red-600 h-full p-6">
+              <div className="h-full p-6">
                 <Outlet /> {/* Child Pages Display here */}
               </div>
             </div>
